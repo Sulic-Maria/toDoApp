@@ -2,10 +2,25 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 70vw;
   margin: auto;
-  background-color: salmon;
-  color: rgb(56, 13, 13);
+  background-color: rgb(35, 154, 232);
+  color: white;
   text-align: center;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 10px;
   margin-top: 40px;
+}
+
+#todo-list {
+  padding: 0;
+}
+
+#todo-list li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 21, 68);
+  padding: 5px 10px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  margin: 5px;
 }
